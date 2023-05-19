@@ -28,12 +28,12 @@ const SecondPage = () => {
                     </div>
                     <div className="secondPage_box2">
                         <div className="vector"/>
-                        <div>
-                            <div className="box_img1"></div>
-                            <div className="box_img2"></div>
-                            <div className="box_img3"></div>
-                            <div className="box_img4"></div>
-                        </div>
+                        {/*<div>*/}
+                        {/*    <div className="box_img1"></div>*/}
+                        {/*    <div className="box_img2"></div>*/}
+                        {/*    <div className="box_img3"></div>*/}
+                        {/*    <div className="box_img4"></div>*/}
+                        {/*</div>*/}
                     </div>
                 </div>
             </div>

@@ -43,7 +43,6 @@ hr {
   justify-content: center;
 }
 .second_subtext {
-  //@include responsive-width;
   position: absolute;
   left:50%;
   transform:translate(-50%, -50%);
@@ -64,9 +63,14 @@ hr {
   padding-top: 100px;
 }
 .vector {
+  //@include responsive-width;
+
+  position: fixed;
+  top: 5%;
+  left: 0%;
   width: 100%;
-  height: 340px;
-  background: no-repeat center/80% url("../images/Vector1.svg");
+  height: 100%;
+  background: no-repeat center/100% url("../images/Group22.svg");
   display: inline-block;
   margin: 0 auto;
   //z-index: 1;
@@ -76,40 +80,40 @@ hr {
   margin: 0 auto;
 }
 .box_img1 {
-  position: absolute;
-  top: 50%;
-  left:50%;
-  transform:translate(-50%, -50%);
-  width: 5%;
+  position: fixed;
+  top: 47%;
+  left: 16%;
+  transform: translate(-50%, -50%);
+  width: 8%;
   height: 25%;
   background: no-repeat center/80% url("../images/circle (3).png");
 }
 .box_img2 {
-  position: absolute;
-  top: 50%;
-  left:50%;
-  transform:translate(-50%, -50%);
-  width: 5%;
+  position: fixed;
+  top: 48%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+  width: 8%;
   height: 25%;
   background: no-repeat center/80% url("../images/circle (2).png");
 }
 
 .box_img3{
-  position: absolute;
-  top: 50%;
-  left:50%;
-  transform:translate(-50%, -50%);
-  width: 5%;
+  position: fixed;
+  top: 47%;
+  left: 63%;
+  transform: translate(-50%, -50%);
+  width: 8%;
   height: 25%;
   background: no-repeat center/80% url("../images/circle (1).png");
 }
 
 .box_img4 {
-  position: absolute;
-  top: 50%;
-  left:50%;
-  transform:translate(-50%, -50%);
-  width: 5%;
+  position: fixed;
+  top: 49%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  width: 8%;
   height: 25%;
   background: no-repeat center/80% url("../images/circle.png");
 }
