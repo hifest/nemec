@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'TT Travels';
+  src: url('../font/TTTravels-Bold.eot');
+  src: url('../font/TTTravels-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../font/TTTravels-Bold.woff') format('woff'),
+  url('../font/TTTravels-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('../font/GothamPro.eot');
+  src: url('../font/GothamPro.eot?#iefix') format('embedded-opentype'),
+  url('../font/GothamPro.woff') format('woff'),
+  url('../font/GothamPro.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Travels';
+  src: url('../font/TTTravels-Regular.eot');
+  src: url('../font/TTTravels-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../font/TTTravels-Regular.woff') format('woff'),
+  url('../font/TTTravels-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Travels Medium';
+  src: url('../font/TTTravels-Medium.eot');
+  src: url('../font/TTTravels-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../font/TTTravels-Medium.woff') format('woff'),
+  url('../font/TTTravels-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+* {
+  font-family: 'TT Travels', sans-serif; /* використовуйте вашу назву шрифту тут */
+}

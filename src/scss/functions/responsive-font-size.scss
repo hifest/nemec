@@ -1,0 +1,6 @@
+@function responsive-font-size($min, $max) {
+  $min-screen: 320px;
+  $max-screen: 1200px;
+
+  @return clamp($min, 1vw + (($max - $min) / ($max-screen - $min-screen)) * (100vw - $min-screen), $max);
+}
