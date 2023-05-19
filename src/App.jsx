@@ -1,10 +1,12 @@
 import React from 'react';
 import "./scss/main.scss"
+import "./scss/secondPage.scss"
+import SecondPage from "./pages/secondPage";
 
 const App = () => {
     return (
         <div>
-            Ihr Erfolg ist unser Erfolg
+            <SecondPage/>
         </div>
     );
 };
