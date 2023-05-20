@@ -1,5 +1,5 @@
 .solution_background{
-  background: no-repeat center/100% url("../images/backSol.jpg");
+  background: no-repeat center/100% url("../images/backgroung.png");
   background-size: cover; /* Регулює масштабування зображення */
 }
 .solution{
@@ -10,7 +10,6 @@
     cursor:pointer;
   }
   &_container{
-    height: 673px;
     }
   &_mark{
     &_ul{
@@ -41,3 +40,7 @@
     }
   }
   }
+.waves{
+  width: 100%;
+  height: 250px;
+}

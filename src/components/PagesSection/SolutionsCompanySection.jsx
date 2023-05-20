@@ -2,10 +2,22 @@ import React from 'react';
 import logo from '../../images/logo.png';
 import Button from "../Button";
 import Scene from "../../images/solScene.png";
+import Waves from "../../images/Waves.png"
 const SolutionCompany = () => {
+    const [active, setActive] = React.useState(false);
+
     return (
+        <>
         <div className="solution_background">
             <div className="container">
+                <ul className={active ? "menu_active menu" : "menu"}>
+                    <li className="menu_item"><a href="#" className="menu_link">Leistungen</a></li>
+                    <li className="menu_item"><a href="#" className="menu_link">referenzen</a></li>
+                    <li className="menu_item"><a href="#" className="menu_link">Impressum</a></li>
+                    <li className="menu_item"><a href="#" className="menu_link">AGB</a></li>
+                    <li className="menu_item"><a href="#" className="menu_link">Datenschutzerklärung</a></li>
+                    <Button text={"KONTAKT"} variant={"button-1"}/>
+                </ul>
                 <div className="solution_container">
                     <div className="header">
                         <div className="solution_logo">
@@ -29,9 +41,16 @@ const SolutionCompany = () => {
                                 </div>
                             </ul>
                         </nav>
+                        <div className={active ? "hamburger hamburger_active" : "hamburger"} onClick={()=>{setActive(!active)}}>
+                            <span className="one"></span>
+                            <span className="two"></span>
+                            <span className="three"></span>
+                        </div>
                     </div>
+
+
                     <div className="solution_info">
-                        <div className="df gap9">
+                        <div className="df gap9 container_adaptive">
                             <div>
                                 <h1 className="solution_h1">#1 digitale lösungen <br/>
                                 für ihr UNTERNEHMEN</h1>
@@ -43,9 +62,9 @@ const SolutionCompany = () => {
                                     <li className="solution_mark_li"><p>Performance Marketing</p></li>
                                     <li className="solution_mark_li"><p>Webseiten & Online-Shops</p></li>
                                 </ul>
-                                <div className="df mt50">
+                                <div className="df mt50 pb30 adaptive_button">
                                     <Button text={"JETZT ANRUFEN"} variant={"button-2 mr25"}/>
-                                    <Button text={"anfrage senden"} variant={"button-3"}/>
+                                    <Button text={"anfrage senden"} variant={"button-3 adaptiveAnotherBtn"}/>
                                 </div>
                             </div>
                             <div>
@@ -58,7 +77,10 @@ const SolutionCompany = () => {
                 </div>
             </div>
         </div>
+             <img src={Waves} alt="" className="waves"/>
+        </>
     );
+
 };
 
 export default SolutionCompany;

@@ -1,0 +1,44 @@
+@media (max-width: 1480px) {
+ .solution_container{
+   padding: 0 30px 0 30px;
+ }
+}
+@media (max-width: 1060px) {
+  .hamburger{
+    display: block !important;
+  }
+  .container_adaptive{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .header{
+    ul{
+      display: none;
+    }
+  }
+}
+@media (max-width: 1100px) {
+  .solution_h3{
+    padding-top: 0;
+    font-size: 15px;
+  }
+  .solution_h1{
+    font-size: 36px;
+  }
+  .solution_mark_ul{
+    padding-top: 15px !important;
+  }
+}
+@media (max-width: 550+px) {
+.adaptive_button{
+  flex-direction: column;
+  gap: 15px;
+}
+  .adaptiveAnotherBtn{
+    background: transparent;
+    border: 2px solid #4900E5;
+  }
+}
+//якщо ти інший прогер і ти це читаєш,вибач за поганий код ріл бро,заказчик підар єбаний нахуй

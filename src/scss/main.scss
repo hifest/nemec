@@ -6,8 +6,12 @@
 @import "./button";
 @import "./header";
 @import "./h";
-
+@import "./media";
+@import "./burger";
 .container {
-  max-width: 1440px;
+  max-width: 1470px;
   margin: 0 auto;
+}
+.hamburger{
+  display: none;
 }
