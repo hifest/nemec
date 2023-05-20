@@ -1,0 +1,30 @@
+.header{
+  display: flex;
+  padding-top: 47px;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  ul{
+    li{
+      cursor: pointer;
+      color: #FFFFFF;
+      font-size: 14px;
+      transition: all 0.3s;
+      font-weight: 700;
+      text-transform: uppercase;
+      &:hover{
+        color: #878787;
+      }
+      &:nth-child(1) {
+        margin-right: 10px;
+      }
+
+      &:nth-child(2) {
+        margin-right: 10px;
+      }
+      &:nth-child(4) {
+        margin-left: 30px;
+      }
+    }
+  }
+}

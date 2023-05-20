@@ -1,0 +1,43 @@
+.solution_background{
+  background: no-repeat center/100% url("../images/backSol.jpg");
+  background-size: cover; /* Регулює масштабування зображення */
+}
+.solution{
+  &_info{
+    padding-top: 60px;
+  }
+  &_logo{
+    cursor:pointer;
+  }
+  &_container{
+    height: 673px;
+    }
+  &_mark{
+    &_ul{
+      margin: 0;
+      padding-top: 40px !important;
+      li{
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        color: #FFFFFF;
+        p{
+          margin: 0;
+        }
+        &:before{
+          content: '';
+          background-image: url('../images/chackMark.png');
+          background-size: contain;
+          background-repeat: no-repeat;
+          width: 30px;
+          height: 30px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  }

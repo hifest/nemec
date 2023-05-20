@@ -1,0 +1,68 @@
+.button-1{
+  cursor: pointer;
+  background: linear-gradient(97.01deg, #2030C4 8.79%, #9B1DC7 87.73%);
+  transition: background 0.3s ease; /* Оновлено властивість переходу */
+  border-radius: 100px;
+  width: 276px;
+  height: 46px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  &:hover{
+    transition: all 0.5s;
+    background: linear-gradient(97.01deg, #9B1DC7 8.79%, #2030C4 87.73%);
+  }
+  p{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 19px;
+  }
+}
+.button-2{
+  background: linear-gradient(97.01deg, #2030C4 8.79%, #9B1DC7 87.73%);
+  border-radius: 100px;
+  width: 231px;
+  height: 69px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  &:hover{
+    transition: all 0.5s;
+    background: linear-gradient(97.01deg, #9B1DC7 8.79%, #2030C4 87.73%);
+  }
+  p{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 19px;
+  }
+}
+.button-3{
+  background: linear-gradient(222.81deg, #4900E5 14.1%, #61BDFF 85.22%);
+  border-radius: 100px;
+  width: 231px;
+  height: 69px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  &:hover{
+    transition: all 0.5s;
+    background: linear-gradient(97.01deg, #61BDFF 8.79%, #4900E5 87.73%);
+  }
+  p{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 19px;
+  }
+}

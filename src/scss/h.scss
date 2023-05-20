@@ -1,0 +1,19 @@
+.solution{
+  &_h1{
+    font-family: 'Gotham Pro', serif;
+    font-weight: bold;
+    font-size: 57px;
+    line-height: 64px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  &_h3{
+    padding-top: 46px;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+  }
+}

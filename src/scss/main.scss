@@ -2,3 +2,12 @@
 @import "functions/responsive-font-size";
 @import "functions/responsive-width";
 @import "./global";
+@import "SolutionsCompany";
+@import "./button";
+@import "./header";
+@import "./h";
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}

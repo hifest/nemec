@@ -1,11 +1,12 @@
 import React from 'react';
 import "./scss/main.scss"
+import FirstPage from "./pages/FirstPage";
 
 const App = () => {
     return (
-        <p>
-            Ihr Erfolg ist unser Erfolg
-        </p>
+        <div>
+            <FirstPage/>
+        </div>
     );
 };
 
