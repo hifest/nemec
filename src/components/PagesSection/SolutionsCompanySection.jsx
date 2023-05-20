@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../../images/logo.png';
 import Button from "../Button";
 import Scene from "../../images/solScene.png";
-import Waves from "../../images/Waves.png"
+import Waves from "../../images/waves.png"
 const SolutionCompany = () => {
     const [active, setActive] = React.useState(false);
 

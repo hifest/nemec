@@ -1,0 +1,268 @@
+@import "functions/responsive-width";
+
+
+.card {
+  margin: 0 auto;
+  display: flex;
+  //justify-content: space-evenly;
+  position: relative;
+  width: 1407px;
+  height: 705px;
+  border: 1px solid #DB00FF;
+  border-radius: 25px;
+  &_boxs {
+    //position: relative;
+  }
+  &_3 {
+    border: 1px solid #9C6DFF;
+  }
+
+  &_title {
+    //font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26.227px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  &_box {
+    position: absolute;
+    left: 754px;
+    padding-left: 20px;
+    //position: absolute;
+    width: 505px;
+    height: 622px;
+    background: rgba(156, 109, 255, 0.26);
+    padding-top: 90px;
+  }
+
+  &_box2 {
+    background: rgba(40, 182, 242, 0.26);
+    left: 181px;
+  }
+
+  &_box3 {
+    background: #9C6DFF;
+
+  }
+
+  &_2 {
+    border: 1px solid #28B6F2;
+    flex-direction: row-reverse;
+
+  }
+
+  &_hr {
+    width: 97.27px;
+    position: relative;
+    right: 193px;
+  }
+
+  &_description {
+    font-family: 'TT Travels Trl';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+  }
+
+  &_text {
+    padding: 20px 0 20px 0;
+    width: 80%;
+  }
+
+  &_li {
+    width: 91%;
+    background-image: url('../images/Group34.png');
+    background-repeat: no-repeat;
+    background-position: left center; /* Змінити положення картинки за потребою */
+    padding-left: 45px; /* Задати відступ, щоб картинка не перекривала текст */
+    padding-top: 20px;
+  }
+
+  &_img {
+    padding-top: 40px;
+  }
+
+  &_img2 {
+    padding-right: 110px;
+    padding-top: 95px;
+  }
+}
+.box2 {
+  position: absolute;
+  top: 30px;
+  left: 710px;
+}
+.box3 {
+  left: 120px;
+}
+.card_span {
+  font-weight: 900;
+  font-size: 19px;
+}
+.second_title {
+  padding-top: 100px;
+  padding-bottom: 50px;
+
+}
+.SecondPage_title {
+  //position: relative;
+  width: 764px;
+  height: 43px;
+  //left: 418px;
+  //top: 964px;
+  margin: 0 auto;
+  font-family: 'TT Travels Trl';
+  font-style: normal;
+  font-weight: 900;
+  font-size: responsive-font-size(10px, 30px);
+  line-height: 43px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.SecondPage_title_span {
+  color: #4E10FF;
+}
+
+hr {
+
+  width: 167px;
+  height: 0px;
+
+  border: 1px solid #000000;
+  border-radius: 101px;
+}
+
+.second_subtext {
+  position: absolute;
+  left:50%;
+  transform:translate(-50%, -50%);
+  padding-top: 36px;
+  font-family: Tahoma, sans-serif;
+  font-weight: bold;
+  line-height: 67px;
+  text-transform: uppercase;
+  -webkit-text-stroke: 0.2px #000000;
+  color: #FFF;
+  mix-blend-mode: multiply;
+  font-size: responsive-font-size(20px, 64px);
+}
+.cards {
+    display: flex;
+    gap: 120px;
+    flex-direction: column;
+}
+
+@media (max-width: 1441px) {
+  .card_hr {
+    width: 97.27px;
+    position: relative;
+    right: 76px;
+  }
+  .card {
+    width: 310px;
+    height: 635px;
+  }
+  .card_boxs {
+    position: absolute;
+    right: 1073px;
+  }
+  .card_box {
+    padding-left: 12px;
+    width: 263px;
+    height: 381px;
+    padding-top: 35px;
+    left: 786px;
+    line-height: 12px;
+    font-size: 9.8px;
+  }
+  .box2 {
+    left: 786px;
+  }
+  .card_box2 {
+    left: 786px;
+  }
+  .card_li {
+    width: 100%;
+    background-image: url(data:image/png;base64,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);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 25px;
+    padding-top: 20px;
+    font-size: 13px;
+    background-size: 8%;
+  }
+  .card_ul {
+    line-height: 10px;
+  }
+  .card_span {
+    font-size: 11px;
+  }
+  .card_title {
+    font-size: 14px;
+  }
+  .card_description {
+    display: none;
+  }
+  .card_btn {
+    height: 35px;
+    width: 200px;
+    margin-left: 8%;
+    p {
+      font-size: 12px;
+    }
+  }
+  .card_logo {
+    padding-top: 371px;
+    margin-left: 28px;
+  }
+  .card_logo2 {
+    padding-top: 326px;
+    margin-left: 56px;
+  }
+  .card_logo3 {
+    padding-top: 368px;
+    margin-left: 8px;
+  }
+}
+@media (max-width: 768px) {
+  .second_subtext {
+    padding-top: 40px;
+    line-height: 39px;
+
+  }
+}
+@media (max-width: 425px) {
+  .SecondPage_title {
+    display: inline;
+    margin-left: 20%;
+    font-size: 12px;
+  }
+  .second_subtext {
+    padding-top: 43px;
+    line-height: 22px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 375px) {
+  .SecondPage_title {
+    display: inline;
+    margin-left: 15%;
+    font-size: 12px;
+  }
+}
+@media (max-width: 375px) {
+  .SecondPage_title {
+    display: inline;
+    margin-left: 8%;
+    font-size: 12px;
+  }
+}
