@@ -3,9 +3,9 @@ import "./scss/main.scss"
 
 const App = () => {
     return (
-        <div>
+        <p>
             Ihr Erfolg ist unser Erfolg
-        </div>
+        </p>
     );
 };
 
