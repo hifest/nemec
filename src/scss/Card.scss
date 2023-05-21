@@ -111,11 +111,6 @@
 
 }
 .SecondPage_title {
-  //position: relative;
-  width: 764px;
-  height: 43px;
-  //left: 418px;
-  //top: 964px;
   margin: 0 auto;
   font-family: 'TT Travels Trl';
   font-style: normal;
@@ -242,8 +237,6 @@ hr {
 }
 @media (max-width: 425px) {
   .SecondPage_title {
-    display: inline;
-    margin-left: 20%;
     font-size: 12px;
   }
   .second_subtext {
@@ -254,15 +247,14 @@ hr {
 }
 @media (max-width: 375px) {
   .SecondPage_title {
-    display: inline;
-    margin-left: 15%;
     font-size: 12px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 320px) {
   .SecondPage_title {
-    display: inline;
-    margin-left: 8%;
     font-size: 12px;
+  }
+  .card_logo {
+    max-width: 92%;
   }
 }
