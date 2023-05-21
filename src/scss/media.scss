@@ -56,6 +56,13 @@
   .SecondPage_title {
     font-size: 13px;
   }
+  .dn{
+    display: none !important;
+    padding: 0 !important;
+  }
+  .slider_container{
+    display: none;
+  }
 }
 @media (max-width: 321px) {
   .second_subtext {

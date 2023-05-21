@@ -2,6 +2,7 @@
   display: block;
   transform: translateY(-50%);
   width: 26px;
+  z-index: 1000;
   height: 12px;
   span{
     display: block;
@@ -14,6 +15,7 @@
   }
   }
 .menu {
+  z-index: 100;
   position: fixed;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -52,6 +54,7 @@
   padding: 20px 10px 0px 10px;
 }
 .hamburger_active{
+  z-index: 1000;
   span:nth-child(1) {
     transform: translateY(3px) rotate(-45deg);
     margin-bottom: -2px;

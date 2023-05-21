@@ -30,7 +30,7 @@ export const Card = () => {
                                 <li className="card_li"><span className="card_span">Virales Potenzial:</span> Instagram und TikTok sind die Virale Plattformen für weitreichende Videos.</li>
                             </ul>
                             <div className="card_text">Ein <span className="card_span">eindrucksvolles Bild Ihres Unternehmens</span> in nun 60 Sekunden.</div>
-                            <Button text="JETZT ANFRAGE STELLEN" variant={"button-2 card_btn"}/>
+                            <Button text="JETZT ANFRAGE STELLEN" variant={"button-2 card_btn pa z100"}/>
                         </div>
                         <div className="card_box box2"/>
                     </div>
@@ -53,7 +53,7 @@ export const Card = () => {
                                 <li className="card_li">Pflege Ihrer Instagram-Seite</li>
                             </ul>
                             <div className="card_text">Lassen Sie uns Ihnen helfen, das <span className="card_span">Wachstum Ihres Unternehmens</span> zu ermöglichen! in nun 60 Sekunden.</div>
-                            <Button text="JETZT ANFRAGE STELLEN" variant={"button-2"}/>
+                            <Button text="JETZT ANFRAGE STELLEN" variant={"button-2 pa z100"}/>
                         </div>
                         <div className="card_box card_box2 box2 box3"/>
                     </div>
@@ -71,7 +71,7 @@ export const Card = () => {
                                 <li className="card_li">Klare Handlungsaufforderung einbinden, um Kunden zum<span className="card_span"> Kauf zu ermutigen.</span></li>
                             </ul>
                             <div className="card_text">Klare Handlungsaufforderung einbinden, um Kunden zum <span className="card_span">Kauf zu ermutigen.</span></div>
-                            <Button text="JETZT ANFRAGE STELLEN" variant={"button-2"}/>
+                            <Button text="JETZT ANFRAGE STELLEN" variant={"button-2 pa z100"}/>
                         </div>
                         <div className="card_box box2"/>
                     </div>
