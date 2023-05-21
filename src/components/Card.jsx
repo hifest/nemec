@@ -14,7 +14,7 @@ export const Card = () => {
                 <div className="SecondPage_title">Ihre Bedürfnisse
                     <span className="SecondPage_title_span"> unsere Leistungen</span>
                 </div>
-                <hr/>
+                <hr className="hr-ihre"/>
             </div>
 
             <div className="cards">

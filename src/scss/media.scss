@@ -30,6 +30,9 @@
   .solution_mark_ul{
     padding-top: 15px !important;
   }
+  .waves{
+    height: 200px;
+  }
 }
 @media (max-width: 550+px) {
 .adaptive_button{
@@ -40,5 +43,57 @@
     background: transparent;
     border: 2px solid #4900E5;
   }
+  .waves{
+    height: 150px;
+  }
 }
 //якщо ти інший прогер і ти це читаєш,вибач за поганий код ріл бро,заказчик підар єбаний нахуй
+@media (max-width: 426px) {
+  .second_subtext {
+    line-height: 25px;
+    padding-top: 39px;
+  }
+  .SecondPage_title {
+    font-size: 13px;
+  }
+}
+@media (max-width: 321px) {
+  .second_subtext {
+    font-size: 19px;
+    padding-top: 40px;
+
+  }
+}
+@media (max-width: 1441px) {
+  .vector {
+    position: relative;
+    top: 21%;
+    left: 0%;
+    width: 100%;
+    height: auto;
+  }
+  .second_subtext {
+    font-size: clamp(20px, 1vw + 0.0829545455 * (100vw - 320px), 86px);
+  }
+}
+@media (max-width: 1025px) {
+  .second_subtext {
+    font-size: clamp(20px, 1vw + 0.0829545455 * (100vw - 320px), 61px);
+    padding-top: 34px;
+    line-height: 84px;
+  }
+}
+@media (max-width: 769px) {
+  .second_subtext {
+    padding-top: 36px;
+    line-height: 55px;
+  }
+  .vector {
+    display: none;
+  }
+  .SecondPage_title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
