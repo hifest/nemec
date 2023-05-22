@@ -18,7 +18,7 @@ const TrustCompanySection = () => {
             <p className="trust_p dn">
                 Als zuverlässige Marketing-Agentur werden wir von namhaften <br/> Unternehmen geschätzt.
             </p>
-            <Slider sliders={sliders}/>
+            <Slider sliders={sliders} slidesToShow={3} sliderContainer={"slider_container"} IfContainer={true}/>
             <p className="trust_secp">Falls Ihre bestehende Website nicht die erhofften Ergebnisse liefert oder Ihnen nicht mehr <br/> gefällt, helfen wir Ihnen gerne dabei, Ihre Website zu optimieren und zu modernisieren.</p>
             <h3 className="trust_h3">Wir kümmern uns darum!</h3>
             <div className="trust_containerButton">

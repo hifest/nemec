@@ -2,15 +2,15 @@
 .client{
   &_slide{
     background: #FFFFFF;
-    padding: 40px 30px 10px 20px;
-    max-width: 362px;
-    max-height: 249px;
+    padding: 20px 15px 10px 15px;
+    max-width: 362.18px;
+    height: 249px;
     border: 3.39545px solid rgba(234, 218, 255, 0.67);
     border-radius: 31.6909px;
     &_descr{
-      font-size: 18.1091px;
+      font-size: responsive-font-size(5px,17px);
       line-height: 22px;
-      padding-bottom: 30px;
+      padding-bottom: 10px;
       color: #000000;
     }
     &_top{
@@ -28,13 +28,11 @@
       padding-bottom: 20px;
     }
     &_title{
-      font-size: 18.1091px;
+      font-size: responsive-font-size(5px,19px);
       line-height: 22px;
-      /* identical to box height */
 
       text-transform: uppercase;
       font-weight: 900;
-      /* txt */
 
       color: #000000;
     }
@@ -43,4 +41,7 @@
 
 .start_element{
   margin-right: 10px;
+}
+.client_container_slider{
+  margin-bottom: 70px;
 }

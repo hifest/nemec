@@ -21,7 +21,6 @@ const SpeakClientComponent = () => {
                         <img src={Star} alt="" className="start_element"/>
                         <img src={Star} alt="" className="start_element"/>
                         <img src={Star} alt="" className="start_element"/>
-
                     </div>
                 </div>
             </div>
@@ -51,7 +50,7 @@ const SpeakClientComponent = () => {
                 </div>
             </div>
             <div className="client_slide_descr">
-                Super Service. Alles war toll und effektiv eingesetzt!
+                Seit 6 Monaten arbeiten wir mit DigitalRaum. Team von echten Profis. Kann nur weiterempfehlen
             </div>
         </div>,
         <div className="client_slide">
@@ -76,7 +75,7 @@ const SpeakClientComponent = () => {
                 </div>
             </div>
             <div className="client_slide_descr">
-                Super Service. Alles war toll und effektiv eingesetzt!
+                Wenn Marketing Experten, - dann DigitalRaum. Eindeutig.
             </div>
         </div>,
         <div className="client_slide">
@@ -101,42 +100,47 @@ const SpeakClientComponent = () => {
                 </div>
             </div>
             <div className="client_slide_descr">
-                Super Service. Alles war toll und effektiv eingesetzt!
-            </div>
-        </div>,
-        <div className="client_slide">
-            <div className="client_slide_top">
-                <div className="client_slide_title">
-                    David Gtei
-                </div>
-                <img src={logoSlider} alt=""/>
-            </div>
-            <div className="client_slide_rate">
-                <div className="client_slide_date">
-                    05.09.2017
-                </div>
-                <div className="client_slide_star">
-                    <div className="star df">
-                        <img src={Star} alt="" className="start_element"/>
-                        <img src={Star} alt="" className="start_element"/>
-                        <img src={Star} alt="" className="start_element"/>
-                        <img src={Star} alt="" className="start_element"/>
-
-                    </div>
-                </div>
-            </div>
-            <div className="client_slide_descr">
-                Super Service. Alles war toll und effektiv eingesetzt!
+                Geile Zusammenarbeit! Einfach Danke!
             </div>
         </div>,
 
     ]
+
+    const [param, setParam] = React.useState(2);
+    const [screenWidth, setScreenWidth] = React.useState(window.innerWidth);
+    React.useEffect(() => {
+        const handleResize = () => {
+            const newScreenWidth = window.innerWidth;
+            setScreenWidth(newScreenWidth);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
+    React.useEffect(() => {
+        if (screenWidth <= 430) {
+            setParam(1)
+        }else if(screenWidth <= 650){
+            setParam(2)
+        }
+        else if(screenWidth <= 966){
+            setParam(3)
+        }
+        else if(screenWidth > 966){
+            setParam(4)
+        }
+    }, [screenWidth]);
+
     return (
             <div className="container_client">
                 <h4>
                     DARUM DIGITALRAUM
                 </h4>
-                <Slider sliders={sliders}/>
+                <Slider sliders={sliders} slidesToShow={param} IfContainer={false} sliderContainer={"client_container_slider"} adaptiveHeight={true}/>
             </div>
     );
 };
