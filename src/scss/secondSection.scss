@@ -1,0 +1,11 @@
+.second{
+  &_wave{
+    width: 100%;
+  }
+  &_star{
+    justify-content: center;
+    padding-top: 20px;
+    gap: 15px;
+    align-items: center;
+  }
+}

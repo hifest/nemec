@@ -115,7 +115,7 @@
   margin: 0 auto;
   font-style: normal;
   font-weight: 900;
-  font-size: responsive-font-size(10px, 30px);
+  font-size: responsive-font-size(10px, 36px);
   line-height: 43px;
   text-align: center;
   text-transform: uppercase;
@@ -142,8 +142,7 @@ hr {
   left:50%;
   transform:translate(-50%, -50%);
   padding-top: 36px;
-  font-family: Tahoma, sans-serif;
-  font-weight: bold;
+  font-weight: 900;
   line-height: 67px;
   text-transform: uppercase;
   -webkit-text-stroke: 0.2px #000000;

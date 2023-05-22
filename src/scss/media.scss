@@ -1,3 +1,4 @@
+@import "functions/responsive-width";
 @media (max-width: 1480px) {
  .solution_container{
    padding: 0 30px 0 30px;
@@ -163,5 +164,26 @@
         width: 22.66667% !important;
       }
     }
+  }
+}
+@media (max-width: 780px) {
+ .second_wave{
+   display: none;
+ }
+  .second_wave_adaptive{
+    display: flex !important;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 70px;
+    align-items: center;
+  }
+}
+@media (max-width: 880px) {
+.second_subtext_2{
+  width: 100% !important;
+  font-size: responsive-font-size(26px, 40px) !important;
+}
+  .second_title_2{
+    font-size: responsive-font-size(17px, 30px) !important;
   }
 }
