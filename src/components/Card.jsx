@@ -3,20 +3,18 @@ import Button from "./Button";
 import logo from "../images/design1.png"
 import logo1 from "../images/Untitle1.png"
 import logo2 from "../images/Microneedlin1.png"
+import Text from "./Text";
+import Divider from "./Divider";
+import StarComponent from "./Star";
 
 
 
 export const Card = () => {
     return (
         <>
-            <div className="second_title">
-                <div className="second_subtext">Ihre Bedürfnisse  <br/> unsere Leistungen</div>
-                <div className="SecondPage_title">Ihre Bedürfnisse
-                    <span className="SecondPage_title_span"> unsere Leistungen</span>
-                </div>
-                <hr className="hr-ihre"/>
-            </div>
-
+            <Text title={"Ihre Bedürfnisse"} subtitle={"Ihre Bedürfnisse  <br/> unsere Leistungen"} titleSecond={"unsere Leistungen"} addClasToContainer={"pb120"}/>
+            <Divider/>
+            <StarComponent/>
             <div className="cards">
                 <div className="card">
                     <div className="card_boxs">

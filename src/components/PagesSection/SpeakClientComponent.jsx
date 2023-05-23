@@ -2,6 +2,8 @@ import React from 'react';
 import Slider from "../slider";
 import logoSlider from "../../images/image 2.png"
 import Star from "../../images/Star 3.png"
+import Text from "../Text";
+import Divider from "../Divider";
 const SpeakClientComponent = () => {
     const sliders = [
         <div className="client_slide">
@@ -137,9 +139,11 @@ const SpeakClientComponent = () => {
 
     return (
             <div className="container_client">
-                <h4>
-                    DARUM DIGITALRAUM
-                </h4>
+                <div className="container_for_text">
+                    <Text title={"WAS UNSERE"} titleSecond={"KUNDEN BERICHTEN"} subtitle={"WAS UNSERE KUNDEN <br/> BERICHTEN"} addClasToContainer={"pt100 pb20"}/>
+                    <Divider/>
+                    <h4 className="client_h4">DARUM DIGITALRAUM</h4>
+                </div>
                 <Slider sliders={sliders} slidesToShow={param} IfContainer={false} sliderContainer={"client_container_slider"} adaptiveHeight={true}/>
             </div>
     );

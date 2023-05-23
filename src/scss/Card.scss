@@ -105,56 +105,18 @@
   font-weight: 900;
   font-size: 19px;
 }
-.second_title {
-  padding-top: 100px;
-  position: relative;
-  padding-bottom: 50px;
-
-}
-.SecondPage_title {
-  margin: 0 auto;
-  font-style: normal;
-  font-weight: 900;
-  font-size: responsive-font-size(10px, 36px);
-  line-height: 43px;
-  text-align: center;
-  text-transform: uppercase;
-
-  color: #000000;
-}
-
 .SecondPage_title_span {
   color: #4E10FF;
 }
 
-hr {
 
-  width: 167px;
-  height: 0px;
 
-  border: 1px solid #000000;
-  border-radius: 101px;
-}
-
-.second_subtext {
-  text-align: center;
-  position: absolute;
-  left:50%;
-  transform:translate(-50%, -50%);
-  padding-top: 36px;
-  font-weight: 900;
-  line-height: 67px;
-  text-transform: uppercase;
-  -webkit-text-stroke: 0.2px #000000;
-  color: #FFF;
-  mix-blend-mode: multiply;
-  font-size: responsive-font-size(20px, 64px);
-}
 .cards {
     padding-top: 100px;
     display: flex;
     gap: 120px;
     flex-direction: column;
+    margin-bottom: 50px;
 }
 
 @media (max-width: 1441px) {

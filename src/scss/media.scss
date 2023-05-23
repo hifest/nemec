@@ -64,6 +64,9 @@
   .slider_container{
     display: none;
   }
+  .dn430{
+    display: none !important;
+  }
 }
 @media (max-width: 321px) {
   .second_subtext {
@@ -185,5 +188,10 @@
 }
   .second_title_2{
     font-size: responsive-font-size(17px, 30px) !important;
+  }
+}
+@media (max-width: 470px){
+  .dn470{
+    display: none;
   }
 }

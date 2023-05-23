@@ -1,0 +1,39 @@
+@import "./functions/responsive-font-size";
+
+.text {
+  position: relative;
+  text-align: center;
+}
+
+.text_title,.text_subtitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.text_title{
+  text-align: center;
+  font-weight: 900;
+  line-height: 67px;
+  text-transform: uppercase;
+  -webkit-text-stroke: 0.2px #000000;
+  color: #FFF;
+  mix-blend-mode: multiply;
+  font-size: responsive-font-size(20px, 64px);
+}
+.text_subtitle {
+  z-index: 1; /* Встановлюємо вищий z-index для h2, щоб він був поверх h1 */
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: responsive-font-size(20px, 36px);
+  line-height: 43px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+  span{
+    color: #4E10FF;
+  }
+}

@@ -1,7 +1,9 @@
 @import "./functions/responsive-font-size";
 .trust{
+
   &_container{
     padding: 20px;
+    margin-top: 50px;
   }
   &_p{
     font-size: 20px;
